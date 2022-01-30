@@ -1,0 +1,86 @@
+:root {
+  --grey: #b9b9b9;
+  --orange: #cf3f1d;
+  --light-grey: #c8c8c8;
+  --text-color: #9c9ab6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+html {
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  padding: 60px 0;
+}
+
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: var(--orange);
+  border: none;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.titulo {
+  font-family: Audiowide;
+  color: var(--orange);
+  font-size: 3rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.countdown {
+  font-family: Poppins;
+}
+
+.countdown li {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.label {
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.number {
+  font-size: 4.5rem;
+  color: var(--grey);
+  text-align: center;
+}
